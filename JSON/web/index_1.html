@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json数组</title>
+
+    <script type="text/javascript">
+        /* JSON数组 */
+        var jsonArray = [
+            {"key":100},
+            {"key":200},
+            {"key":"100"}
+        ];
+
+        //遍历输出JSON数组（JSON数组中的每一个元素都是JSON对象/object类型对象）
+        for (var i = 0; i < jsonArray.length; i++) {
+            var jsonArrayElement = jsonArray[i];
+
+            window.alert("key = " + jsonArrayElement.key);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
